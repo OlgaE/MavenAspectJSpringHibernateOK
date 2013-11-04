@@ -10,13 +10,18 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="USER5")
+@Table(name="USER7")
 public class User {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
+  @Column(name="ID", nullable = false)
   private int id;
+  
+  @Column(name="USERNAME", nullable = false)
   private String username;
+  
+  @Column(name="NAME", nullable = false)
   private String name;
   
   public int getId() {

@@ -22,20 +22,20 @@ public class UserManagerImpl implements UserManager {
     userDAO.insertUser(user);
   }
 
-/*  //@Override
+  //@Override
   @Transactional
   public User getUserById(int userId) {
     return userDAO.getUserById(userId);
   }
   
   //@Override
-  @Transactional
+ @Transactional
   public User getUser(String username) {
     return userDAO.getUser(username);
   }
 
   //@Override
-  @Transactional
+  /* @Transactional
   public List<User> getUsers() {
     return userDAO.getUsers();
   }*/

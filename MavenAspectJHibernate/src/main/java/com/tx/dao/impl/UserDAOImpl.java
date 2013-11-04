@@ -21,7 +21,7 @@ public class UserDAOImpl implements UserDAO {
 		sessionFactory.getCurrentSession().save(user);
 	}
 
-/*	public User getUserById(int userId) {
+	public User getUserById(int userId) {
 		return (User) sessionFactory.getCurrentSession()
 				.get(User.class, userId);
 	}
@@ -33,10 +33,10 @@ public class UserDAOImpl implements UserDAO {
 		return (User) query.list().get(0);
 	}
 
-	public List<User> getUsers() {
+/*	public List<User> getUsers() {
 		Query query = sessionFactory.getCurrentSession().createQuery(
 				"from User where username = :username");
-		// query.setParameter("username", username);
+	    query.setParameter("username", username);
 		return (List<User>) query.list().get(0);
 	} */
 }

@@ -25,7 +25,7 @@ public class Main
       
       System.out.println("User inserted!");
       
-      /*user = userManager.getUser("johndoe");
+      user = userManager.getUser("johndoe");
       
       System.out.println("\nUser fetched by username!"
         + "\nId: " + user.getId()
@@ -39,7 +39,7 @@ public class Main
         + "\nUsername: " + user.getUsername()
         + "\nName: " + user.getName());
       
-      List<User> users = userManager.getUsers();
+ /*     List<User> users = userManager.getUsers();
       
       System.out.println("\nUser list fetched!"
           + "\nUser count: " + users.size());*/
